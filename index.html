@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recipe App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="main-head">Recipe App</h1>
+    <div class="container ingredients-container">
+        <div class="search-box">
+            <input type="search" name="" id="" placeholder="Enter any dish name">
+            <button class="btn search-btn" type="submit">Search</button>
+        </div>
+
+        <div class="text-center loader">
+           
+        </div>
+
+        <div class="img-box">
+            <img src="" class="dish-img" alt="">
+
+            <div class="ingredient-name text-center">
+                <h1 class="dish-name"></h1>
+                <h3 class="dish-type"></h3>
+            </div>
+        </div>
+
+        <div class="ingredients-box">
+            <div class="ingredients">
+                <p class="ingredients-para text-center"></p>
+            </div>
+            <div class="btn view-recipe">View Recipe</div>
+        </div>
+    </div>
+
+
+    <div class="container recipe-container">
+        <div class="recipe-card">
+            <div class="recipe-header">
+                <h3 class="recipe-heading">Here's Your Recipe :)</h3>
+                <button type="button" class="btn-close" aria-label="Close"></button>
+            </div>
+
+            <p class="recipe text-start"> </p>
+            <!-- <p class="video"></p> -->
+        </div>
+
+    </div>
+
+    <div class="video">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
